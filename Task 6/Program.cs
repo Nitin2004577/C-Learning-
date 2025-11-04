@@ -26,5 +26,5 @@ fruits.Add(3, "peach");
 //printing all the key value pairs
 foreach (KeyValuePair<int, string> fruit in fruits)
 {
-    System.Console.WriteLine($"ID: {fruit.Key}, Name: {fruit.Value}");
+    System.Console.WriteLine($"Key: {fruit.Key}, Name: {fruit.Value}");
 }
